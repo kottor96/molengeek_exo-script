@@ -1,9 +1,11 @@
 #!/bin/bash
-echo "quel fichier"
+echo "nom de ficher"
 read nom_fichier
-if [ -f $nom_fichier ]
+echo "confirmation (o = oui ou n = non)"
+read confirmer
+if [ $confirmer -eq "o"]
 then 
-    echo "le fichier $nom_fichier existe"
+    touch $nom_fichiert
 else
-    echo "le fichier $nom_fichier n'est pas la, un voleur est passé"
+    echo "demare pas mon script alors"
 fi
