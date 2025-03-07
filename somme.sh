@@ -1,3 +1,4 @@
+#!/bin/bash
 echo n1
 read n1
 echo n2
